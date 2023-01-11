@@ -9,9 +9,9 @@ def decimal_rounding(decimal, user_number):
     # This function rounds numbers
 
     # process
-    answer = user_number[0] * (10 ** decimal)
+    answer = user_number[0] * (10**decimal)
     answer = int(answer + 0.5)
-    answer = answer / (10 ** decimal)
+    answer = answer / (10**decimal)
 
     user_number[0] = answer
 
