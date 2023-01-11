@@ -17,7 +17,7 @@ def decimal_rounding(decimal, user_number):
 
 
 def main():
-    # main functiom
+    # main function
 
     # calling functions and inputs
     user_number = []
